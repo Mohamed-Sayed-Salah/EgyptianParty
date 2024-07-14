@@ -1,0 +1,184 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+html,
+body {
+  scroll-behavior: auto !important;
+}
+/** Home Section **/
+#home {
+  height: 100vh;
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url(../images/events-heavenly-header.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#home h2 {
+  font-size: 60px;
+  font-weight: 500;
+  line-height: 72px;
+}
+.open-nav {
+  font-size: 30px;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  left: 0;
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+#leftMenu {
+  background-color: #111;
+  width: 0;
+  position: fixed;
+  padding-top: 60px;
+  z-index: 9999;
+  overflow: hidden;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#leftMenu li a {
+  font-size: 25px;
+  display: inline-block;
+  padding: 20px 8px 20px 32px;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#leftMenu li a:hover {
+  color: rgba(214, 46, 51, 0.4);
+}
+#closeNav {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+/** Slider Section **/
+
+#sliderDown {
+  width: 50%;
+  margin: 100px auto;
+  text-align: center;
+}
+.slide h3 {
+  padding: 10px;
+  color: #fff;
+  background-color: #e68285;
+  margin: 0;
+  cursor: pointer;
+}
+
+.slide div {
+  background-color: #ccc;
+  padding: 10px;
+  display: none;
+}
+
+.slide:nth-child(1) div {
+  display: block;
+}
+/** Count Section **/
+
+.count {
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url(../images/invitation-2508607__340.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+
+.count .time div {
+  padding: 50px;
+  border: 1px solid #fff;
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 500;
+}
+/** Contact Section **/
+
+.contact-us {
+  margin: 200px 0 100px;
+}
+
+.contact-us header h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+strong {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.contact-us p {
+  color: #777;
+}
+
+.contact-us ul li {
+  color: #777;
+}
+
+.contact-us ul li:nth-child(2) span {
+  color: #d62e33;
+}
+
+.social-icons .icon {
+  border: 1px solid #999;
+  width: 40px;
+  height: 40px;
+  transition: all 0.5s;
+}
+
+.social-icons .icon:hover {
+  background-color: #d62e33;
+}
+.social-icons .icon:hover a {
+  color: #fff;
+}
+.social-icons .icon a {
+  color: #777;
+  text-decoration: none;
+}
+
+.contact-us input {
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+
+.contact-us textarea {
+  height: 200px;
+  margin-bottom: 20px;
+  border-radius: 0;
+}
+#sendMessage {
+  display: block;
+  background-color: #d62e33;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 0;
+  text-transform: uppercase;
+}
+
+#chars {
+  color: #d62e33;
+  font-size: 20px;
+}
